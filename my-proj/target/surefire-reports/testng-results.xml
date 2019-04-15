@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34144" started-at="2019-04-08T15:52:45 EDT" finished-at="2019-04-08T15:53:20 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34144" started-at="2019-04-08T15:52:45 EDT" finished-at="2019-04-08T15:53:20 EDT">
+      <class name="com.mycompany.Validate_title">
+        <test-method status="PASS" signature="main_login()[pri:0, instance:com.mycompany.Validate_title@3527942a]" name="main_login" is-config="true" duration-ms="7397" started-at="2019-04-08T15:53:12 EDT" finished-at="2019-04-08T15:53:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_login -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:com.mycompany.Validate_title@3527942a]" name="basepagenavigation" duration-ms="109" started-at="2019-04-08T15:53:19 EDT" finished-at="2019-04-08T15:53:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mycompany.Validate_title@3527942a]" name="teardown" is-config="true" duration-ms="75" started-at="2019-04-08T15:53:19 EDT" finished-at="2019-04-08T15:53:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mycompany.Validate_title -->
+      <class name="com.mycompany.Home_page">
+        <test-method status="PASS" signature="main_login()[pri:0, instance:com.mycompany.Home_page@3f6f6701]" name="main_login" is-config="true" duration-ms="8984" started-at="2019-04-08T15:52:45 EDT" finished-at="2019-04-08T15:52:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_login -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.Home_page@3f6f6701]" name="basepagenavigation" duration-ms="5019" started-at="2019-04-08T15:52:54 EDT" data-provider="getData" finished-at="2019-04-08T15:52:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no_restrict@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mycompany.Home_page@3f6f6701]" name="teardown" is-config="true" duration-ms="154" started-at="2019-04-08T15:52:59 EDT" finished-at="2019-04-08T15:53:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="main_login()[pri:0, instance:com.mycompany.Home_page@3f6f6701]" name="main_login" is-config="true" duration-ms="7803" started-at="2019-04-08T15:53:00 EDT" finished-at="2019-04-08T15:53:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_login -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.Home_page@3f6f6701]" name="basepagenavigation" duration-ms="4436" started-at="2019-04-08T15:53:07 EDT" data-provider="getData" finished-at="2019-04-08T15:53:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrict@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45552]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mycompany.Home_page@3f6f6701]" name="teardown" is-config="true" duration-ms="133" started-at="2019-04-08T15:53:12 EDT" finished-at="2019-04-08T15:53:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mycompany.Home_page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
